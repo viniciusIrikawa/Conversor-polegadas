@@ -20,10 +20,36 @@ public class Conversor {
         System.out.println("Valor na altura (cm): " + altura);
     }
     
-    public double getPolegadas(){
+    public float getPolegadas(){
         return polegadas;
     }
     public void setPolegadas(float polegadas){
         this.polegadas = polegadas;
     }
+
+    public float getCentimetro() {
+        return centimetro;
+    }
+
+    public void setCentimetro(float centimetro) {
+        this.centimetro = centimetro;
+    }
+
+    public float getLargura() {
+        return largura;
+    }
+
+    public void setLargura(float largura) {
+        this.largura = largura;
+    }
+
+    public float getAltura() {
+        return altura;
+    }
+
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+    
+    
 }
